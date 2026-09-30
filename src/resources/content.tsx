@@ -97,9 +97,7 @@ const about: About = {
     title: "Introduction",
     description: (
       <>
-        {person.firstName} is a {person.location.split("/")[1]?.replace("_", " ")}-based {person.role.toLowerCase()} with a passion for transforming complex challenges
-        into simple, elegant design solutions. Their work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
+        Com 21 anos e nascido em São Paulo, encontro na luz dura e nas sombras profundas a minha principal linguagem. Meu trabalho foca em fotografia automobilística, arquitetura e retratos, sempre buscando uma atmosfera cinematográfica e Low-Key. Mais do que apenas registrar, meu objetivo é esculpir as formas através do contraste absoluto, revelando a estética crua em cada detalhe.
       </>
     ),
   },
@@ -154,12 +152,12 @@ const about: About = {
     title: "Studies",
     institutions: [
       {
-        name: "University of Jakarta",
-        description: <>Studied software engineering.</>,
+        name: "Vinicius Waknin - Fotografia Avançada",
+        description: <>Estudo sobre a fotografia avançada, pós edição e manipulação de luz.<br /> Professor: Vinicius Waknin.</>,
       },
       {
-        name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
+        name: "Leandro Duarte - Ensaios Internos / Externos / Sensuais",
+        description: <>Estudo sobre Fotografia, ensaios internos, ensaios externos e sensuais. <br /> Professor Leandro Duarte.</>,
       },
     ],
   },
@@ -168,60 +166,20 @@ const about: About = {
     title: "Technical skills",
     skills: [
       {
-        title: "Figma",
+        title: "Fotografia & Pós-Produção",
         description: (
-          <>Able to prototype in Figma with Once UI with unnatural speed.</>
+          <>Especialização em fotografia automotiva, arquitetura e retratos. Domínio de iluminação dura, estética Low-Key e retoque digital avançado.</>
         ),
-        tags: [
-          {
-            name: "Figma",
-            icon: "figma",
-          },
-        ],
-        // optional: leave the array empty if you don't want to display images
-        images: [
-          {
-            src: "/images/projects/project-01/cover-02.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-          {
-            src: "/images/projects/project-01/cover-03.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-        ],
+        tags: [],
+        images: [],
       },
       {
-        title: "Next.js",
+        title: "Engenharia Audiovisual & TI",
         description: (
-          <>Building next gen apps with Next.js + Once UI + Supabase.</>
+          <>Experiência em integração de sistemas, configuração de videowalls de alta complexidade e desenvolvimento de automações para salas de controle.</>
         ),
-        tags: [
-          {
-            name: "JavaScript",
-            icon: "javascript",
-          },
-          {
-            name: "Next.js",
-            icon: "nextjs",
-          },
-          {
-            name: "Supabase",
-            icon: "supabase",
-          },
-        ],
-        // optional: leave the array empty if you don't want to display images
-        images: [
-          {
-            src: "/images/projects/project-01/cover-04.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-        ],
+        tags: [],
+        images: [],
       },
     ],
   },
