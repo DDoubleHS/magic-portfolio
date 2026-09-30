@@ -77,8 +77,7 @@ const home: Home = {
   },
   subline: (
     <>
-      I'm {person.firstName}, a {person.role.toLowerCase()} at{" "}
-      <Text as="span" size="xl" weight="strong">ONCE UI</Text>, where I craft intuitive <br /> user experiences. After hours, I build my own projects.
+      Me chamo {person.firstName}. O meu trabalho explora a fotografia automobilística, arquitetura e retratos numa atmosfera <Text as="span" size="xl" weight="strong">cinematográfica e Low-Key</Text>. <br /> Foco em captar a essência visual através de contrastes pesados e luz dura.
     </>
   ),
 };
