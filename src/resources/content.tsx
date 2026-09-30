@@ -14,7 +14,7 @@ const person: Person = {
 };
 
 const newsletter: Newsletter = {
-  display: true,
+  display: false,
   title: <>Subscribe to {person.firstName}'s Newsletter</>,
   description: <>My weekly newsletter about creativity and engineering</>,
 };
@@ -40,12 +40,6 @@ const social: Social = [
     icon: "instagram",
     link: "https://www.instagram.com/luancosta.raw",
     essential: true,
-  },
-  {
-    name: "Threads",
-    icon: "threads",
-    link: "https://www.threads.com/@once_ui",
-    essential: false,
   },
   {
     name: "Email",
@@ -77,7 +71,7 @@ const home: Home = {
   },
   subline: (
     <>
-      Me chamo {person.firstName}. O meu trabalho explora a fotografia automobilística, arquitetura e retratos numa atmosfera <Text as="span" size="xl" weight="strong">cinematográfica e Low-Key</Text>. <br /> Foco em captar a essência visual através de contrastes pesados e luz dura.
+      Me chamo {person.firstName} {person.lastName}. O meu trabalho explora a fotografia automobilística, arquitetura e retratos numa atmosfera <Text as="span" size="xl" weight="strong">cinematográfica</Text>. <br /> Foco em captar a essência visual através de contrastes pesados e luz dura.
     </>
   ),
 };
