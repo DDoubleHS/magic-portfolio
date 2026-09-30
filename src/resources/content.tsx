@@ -55,7 +55,7 @@ const home: Home = {
   label: "Home",
   title: "LuanCosta.Raw - Portifólio",
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Building bridges between design and code</>,
+  headline: <>Captando momentos através da luz. Fotografia cinematográfica.</>,
   featured: {
     display: true,
     title: (
