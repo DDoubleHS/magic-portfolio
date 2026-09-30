@@ -5,10 +5,10 @@ const person: Person = {
   firstName: "Luan",
   lastName: "Costa",
   name: `Luan Costa`,
-  role: "Fotográfo",
+  role: "Fotógrafo",
   avatar: "/images/avatar.jpg",
   email: "luan.costa@plotvisual.com.br",
-  location: "São Paulo, SP", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+  location: "America/Sao_Paulo", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
   languages: ["Portuguese", "English"], // optional: Leave the array empty if you don't want to display languages
   locale: "pt", // BCP 47 language tag for the HTML lang attribute, e.g., 'en', 'ja', 'zh-TW'
 };
