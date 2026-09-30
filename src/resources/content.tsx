@@ -7,10 +7,10 @@ const person: Person = {
   name: `Luan Costa`,
   role: "Fotográfo",
   avatar: "/images/avatar.jpg",
-  email: "example@gmail.com",
-  location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  languages: ["English", "Bahasa"], // optional: Leave the array empty if you don't want to display languages
-  locale: "en", // BCP 47 language tag for the HTML lang attribute, e.g., 'en', 'ja', 'zh-TW'
+  email: "luan.costa@plotvisual.com.br",
+  location: "São Paulo, SP", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+  languages: ["Portuguese", "English"], // optional: Leave the array empty if you don't want to display languages
+  locale: "pt", // BCP 47 language tag for the HTML lang attribute, e.g., 'en', 'ja', 'zh-TW'
 };
 
 const newsletter: Newsletter = {
@@ -26,32 +26,32 @@ const social: Social = [
   {
     name: "GitHub",
     icon: "github",
-    link: "https://github.com/once-ui-system",
+    link: "https://github.com/DDoubleHS",
     essential: true,
   },
   {
     name: "LinkedIn",
     icon: "linkedin",
-    link: "https://www.linkedin.com/company/once-ui/",
+    link: "https://www.linkedin.com/in/luanvcosta/",
     essential: true,
   },
   {
     name: "Instagram",
     icon: "instagram",
-    link: "https://www.instagram.com/once_ui/",
-    essential: false,
+    link: "https://www.instagram.com/luancosta.raw",
+    essential: true,
   },
   {
     name: "Threads",
     icon: "threads",
     link: "https://www.threads.com/@once_ui",
-    essential: true,
+    essential: false,
   },
   {
     name: "Email",
     icon: "email",
     link: `mailto:${person.email}`,
-    essential: true,
+    essential: false,
   },
 ];
 
