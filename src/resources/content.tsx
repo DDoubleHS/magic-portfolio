@@ -7,7 +7,7 @@ const person: Person = {
   name: `Luan Costa`,
   role: "Fotógrafo",
   avatar: "/images/avatar.jpg",
-  email: "luan.costa@plotvisual.com.br",
+  email: "costa.luanv@gmail.com",
   location: "America/Sao_Paulo", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
   languages: ["Portuguese", "English"], // optional: Leave the array empty if you don't want to display languages
   locale: "pt", // BCP 47 language tag for the HTML lang attribute, e.g., 'en', 'ja', 'zh-TW'
@@ -97,7 +97,7 @@ const about: About = {
     title: "Introduction",
     description: (
       <>
-        Com 21 anos e nascido em São Paulo, encontro na luz dura e nas sombras profundas a minha principal linguagem. Meu trabalho foca em fotografia automobilística, arquitetura e retratos, sempre buscando uma atmosfera cinematográfica e Low-Key. Mais do que apenas registrar, meu objetivo é esculpir as formas através do contraste absoluto, revelando a estética crua em cada detalhe.
+        Com 21 anos e nascido em São Paulo, encontro na luz e nas sombras profundas a minha principal linguagem. Meu trabalho foca em fotografia automobilística, arquitetura e retratos, sempre buscando uma atmosfera cinematográfica. Mais do que apenas registrar, meu objetivo é esculpir as formas através do contraste absoluto, revelando a estética crua em cada detalhe.
       </>
     ),
   },
@@ -149,7 +149,7 @@ const about: About = {
   },
   studies: {
     display: true, // set to false to hide this section
-    title: "Studies",
+    title: "Formação",
     institutions: [
       {
         name: "Vinicius Waknin - Fotografia Avançada",
@@ -157,7 +157,7 @@ const about: About = {
       },
       {
         name: "Leandro Duarte - Ensaios Internos / Externos / Sensuais",
-        description: <>Estudo sobre Fotografia, ensaios internos, ensaios externos e sensuais. <br /> Professor Leandro Duarte.</>,
+        description: <>Estudo sobre Fotografia, ensaios internos, ensaios externos e sensuais. <br /> Professor: Leandro Duarte.</>,
       },
     ],
   },
