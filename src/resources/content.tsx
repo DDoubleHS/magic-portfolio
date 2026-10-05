@@ -217,7 +217,7 @@ const gallery: Gallery = {
       orientation: "horizontal",
     },
     {
-      src: "/images/gallery/vertical-4.jpg",
+      src: "/images/gallery/BMWFire.jpg",
       alt: "image",
       orientation: "vertical",
     },
@@ -227,12 +227,12 @@ const gallery: Gallery = {
       orientation: "horizontal",
     },
     {
-      src: "/images/gallery/vertical-1.jpg",
+      src: "/images/gallery/SharkTire.jpg",
       alt: "image",
       orientation: "vertical",
     },
     {
-      src: "/images/gallery/vertical-2.jpg",
+      src: "/images/gallery/Mercedes.jpg",
       alt: "image",
       orientation: "vertical",
     },
@@ -247,7 +247,12 @@ const gallery: Gallery = {
       orientation: "horizontal",
     },
     {
-      src: "/images/gallery/vertical-3.jpg",
+      src: "/images/gallery/FinalLight.jpg",
+      alt: "image",
+      orientation: "vertical",
+    },
+        {
+      src: "/images/gallery/Colours.jpg",
       alt: "image",
       orientation: "vertical",
     },
