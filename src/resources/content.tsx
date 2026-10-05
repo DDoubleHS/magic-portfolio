@@ -256,6 +256,12 @@ const gallery: Gallery = {
       alt: "image",
       orientation: "vertical",
     },
+       {
+      src: "/images/gallery/Corte Frio.jpg",
+      alt: "image",
+      orientation: "vertical",
+    },
+    
   ],
 };
 
