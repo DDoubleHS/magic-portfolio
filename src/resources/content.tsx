@@ -51,16 +51,16 @@ const social: Social = [
 
 const home: Home = {
   path: "/",
-  image: "/images/og/home.jpg",
+  image: "/images/og/CarroBG.jpg",
   label: "Home",
   title: "LuanCosta.Raw - Portifólio",
   description: `Portfolio website showcasing my work as a ${person.role}`,
   headline: <>Captando momentos através da luz. Fotografia cinematográfica.</>,
   featured: {
-    display: true,
+    display: false,
     title: (
       <Row gap="12" vertical="center">
-        <strong className="ml-4">Once UI</strong>{" "}
+        <strong className="ml-4">Luan Costa</strong>{" "}
         <Line background="brand-alpha-strong" vert height="20" />
         <Text marginRight="4" onBackground="brand-medium">
           Featured work
@@ -90,11 +90,11 @@ const about: About = {
   },
   calendar: {
     display: true,
-    link: "https://cal.com",
+    link: "https://wa.me/5511970209428?text=Ol%C3%A1%2C%20Luan!%20Vi%20seu%20portf%C3%B3lio%20e%20gostaria%20de%20solicitar%20um%20or%C3%A7amento%20para%20um%20ensaio",
   },
   intro: {
     display: true,
-    title: "Introduction",
+    title: "Introdução",
     description: (
       <>
         Com 21 anos e nascido em São Paulo, encontro na luz e nas sombras profundas a minha principal linguagem. Meu trabalho foca em fotografia automobilística, arquitetura e retratos, sempre buscando uma atmosfera cinematográfica. Mais do que apenas registrar, meu objetivo é esculpir as formas através do contraste absoluto, revelando a estética crua em cada detalhe.
@@ -163,7 +163,7 @@ const about: About = {
   },
   technical: {
     display: true, // set to false to hide this section
-    title: "Technical skills",
+    title: "Habilidades Técnicas",
     skills: [
       {
         title: "Fotografia & Pós-Produção",
@@ -212,7 +212,7 @@ const gallery: Gallery = {
   // These are placeholder images, replace with your own
   images: [
     {
-      src: "/images/gallery/horizontal-1.jpg",
+      src: "/images/gallery/Chevette.jpg",
       alt: "image",
       orientation: "horizontal",
     },
@@ -222,7 +222,7 @@ const gallery: Gallery = {
       orientation: "vertical",
     },
     {
-      src: "/images/gallery/horizontal-3.jpg",
+      src: "/images/gallery/Peace.jpg",
       alt: "image",
       orientation: "horizontal",
     },
@@ -237,12 +237,12 @@ const gallery: Gallery = {
       orientation: "vertical",
     },
     {
-      src: "/images/gallery/horizontal-2.jpg",
+      src: "/images/gallery/Dreams.jpg",
       alt: "image",
       orientation: "horizontal",
     },
     {
-      src: "/images/gallery/horizontal-4.jpg",
+      src: "/images/gallery/NSX.jpg",
       alt: "image",
       orientation: "horizontal",
     },
