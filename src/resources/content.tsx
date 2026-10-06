@@ -109,7 +109,7 @@ const about: About = {
         company: "LC.RAW",
         timeframe: "2024 - Present",
         role: "Fotógrafo",
-        achievements: [
+        achievements: [f
           <>
             Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
             engagement and 30% faster load times.
