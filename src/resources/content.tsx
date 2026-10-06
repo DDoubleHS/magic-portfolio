@@ -57,7 +57,7 @@ const home: Home = {
   description: `Portfolio website showcasing my work as a ${person.role}`,
   headline: <>Captando momentos através da luz. Fotografia cinematográfica.</>,
   featured: {
-    display: false,
+    display: true,
     title: (
       <Row gap="12" vertical="center">
         <strong className="ml-4">Luan Costa</strong>{" "}
