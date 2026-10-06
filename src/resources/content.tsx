@@ -261,6 +261,27 @@ const gallery: Gallery = {
       alt: "image",
       orientation: "vertical",
     },
+    {
+      src: "/images/gallery/Tyre.jpg",
+      alt: "image",
+      orientation: "horizontal",
+    },
+    {
+      src: "/images/gallery/Vitor.jpg",
+      alt: "image",
+      orientation: "vertical",
+    },
+    {
+      src: "/images/gallery/Hunter Eye.jpg",
+      alt: "image",
+      orientation: "horizontal",
+    },
+    {
+      src: "/images/gallery/Flying.jpg",
+      alt: "image",
+      orientation: "vertical",
+    },
+    
     
   ],
 };
