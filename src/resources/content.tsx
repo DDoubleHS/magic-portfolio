@@ -63,7 +63,7 @@ const home: Home = {
         <strong className="ml-4">Luan Costa</strong>{" "}
         <Line background="brand-alpha-strong" vert height="20" />
         <Text marginRight="4" onBackground="brand-medium">
-          Featured work
+          Projetos
         </Text>
       </Row>
     ),
@@ -186,6 +186,7 @@ const about: About = {
 };
 
 const blog: Blog = {
+  display: false,
   path: "/blog",
   label: "Blog",
   title: "Writing about design and tech...",
@@ -196,20 +197,19 @@ const blog: Blog = {
 
 const work: Work = {
   path: "/work",
-  label: "Work",
-  title: `Projects – ${person.name}`,
-  description: `Design and dev projects by ${person.name}`,
+  label: "Projetos",
+  title: `Projetos – ${person.name}`,
+  description: `Projetos de fotografia e audiovisual por ${person.name}`,
   // Create new project pages by adding a new .mdx file to app/blog/posts
   // All projects will be listed on the /home and /work routes
 };
 
 const gallery: Gallery = {
   path: "/gallery",
-  label: "Gallery",
-  title: `Photo gallery – ${person.name}`,
-  description: `A photo collection by ${person.name}`,
-  // Images by https://lorant.one
-  // These are placeholder images, replace with your own
+  label: "Galeria",
+  title: `Galeria de Fotos – ${person.name}`,
+  description: `Repertório completo - ${person.name}`,
+
   images: [
     {
       src: "/images/gallery/Chevette.jpg",
