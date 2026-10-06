@@ -186,7 +186,6 @@ const about: About = {
 };
 
 const blog: Blog = {
-  display: false,
   path: "/blog",
   label: "Blog",
   title: "Writing about design and tech...",
