@@ -272,6 +272,39 @@ const gallery: Gallery = {
       alt: "image",
       orientation: "vertical",
     },
+    {
+      src: "/images/gallery/Catedral.jpg",
+      alt: "image",
+      orientation: "vertical",
+    },
+    {
+      src: "/images/gallery/Catedral_internal.jpg",
+      alt: "image",
+      orientation: "vertical",
+    },
+    {
+      src: "/images/gallery/Little Friend.jpg",
+      alt: "image",
+      orientation: "vertical",
+    },
+    {
+      src: "/images/gallery/Golf.jpg",
+      alt: "image",
+      orientation: "horizontal",
+    },
+    {
+      src: "/images/gallery/Blue Eyes.jpg",
+      alt: "image",
+      orientation: "vertical",
+    },
+    {
+      src: "/images/gallery/OrangeBMW.jpg",
+      alt: "image",
+      orientation: "vertical",
+    },
+    
+    
+    
     
     
   ],
