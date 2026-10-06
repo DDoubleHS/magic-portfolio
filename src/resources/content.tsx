@@ -97,7 +97,7 @@ const about: About = {
     title: "Introdução",
     description: (
       <>
-        Com 21 anos e nascido em São Paulo, encontro na luz e nas sombras profundas a minha principal linguagem. Meu trabalho foca em fotografia automobilística, arquitetura e retratos, sempre buscando uma atmosfera cinematográfica. Mais do que apenas registrar, meu objetivo é esculpir as formas através do contraste absoluto, revelando a estética crua em cada detalhe.
+        Com 21 anos e nascido em São Paulo, encontro na luz e nas sombras a minha principal linguagem. Meu trabalho foca em fotografia automobilística, arquitetura e retratos, sempre buscando uma atmosfera cinematográfica. Mais do que apenas registrar, meu objetivo é esculpir as formas através do contraste absoluto, revelando a estética em cada detalhe.
       </>
     ),
   },
@@ -300,7 +300,7 @@ const gallery: Gallery = {
     {
       src: "/images/gallery/OrangeBMW.jpg",
       alt: "image",
-      orientation: "vertical",
+      orientation: "horizontal",
     },
     
     
